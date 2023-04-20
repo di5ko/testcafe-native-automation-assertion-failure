@@ -1,0 +1,24 @@
+{
+  "name": "testcafe-native-automation-assertion-failure",
+  "version": "0.1.0",
+  "description": "POC for t.expect(Selector.exists).ok assertion failure",
+  "private": true,
+  "standard": {
+    "globals": [
+      "t",
+      "fixture",
+      "test"
+    ]
+  },
+  "scripts": {
+    "testcafe": "testcafe",
+    "test": "node src/run-tests.js --native-automation",
+    "test-without-na": "node src/run-tests.js"
+  },
+  "bugs": {
+    "url": "https://github.com/DevExpress/testcafe/issues"
+  },
+  "devDependencies": {
+    "testcafe": "*"
+  }
+}
