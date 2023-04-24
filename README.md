@@ -9,10 +9,11 @@ To reproduce:
 3. Start test: `npm run test` (this uses `Native Automation`) -> WILL FAIL
 4. Repeat test without native automation: `npm run test-without-na` -> WILL PASS
 
+
 ## Output
 
 ```
-PS C:\Users\di5ko\git\e2e-testing\testcafe-native-automation-assertion-failure> node .\src\run-tests.js                    
+PS C:\Users\di5ko\git\e2e-testing\testcafe-native-automation-assertion-failure> npm run test-without-na
 [INFO] Native Automation mode: false
  Running tests in:
  - Chrome 112.0.0.0 / Windows 11
@@ -25,7 +26,7 @@ PS C:\Users\di5ko\git\e2e-testing\testcafe-native-automation-assertion-failure> 
 [INFO] All tests done!
 
 
-PS C:\Users\di5ko\git\e2e-testing\testcafe-native-automation-assertion-failure> node .\src\run-tests.js --native-automation
+PS C:\Users\di5ko\git\e2e-testing\testcafe-native-automation-assertion-failure> npm run test
 [INFO] Native Automation mode: true
  Running tests in:
  - Chrome 112.0.0.0 / Windows 11
